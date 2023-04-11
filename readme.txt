@@ -10,7 +10,7 @@ things ive made:
 - animated settings on bottom left
 - better look of blocked messages
 - removed useless stuff
-- removde cringe emoji search bar
+- removed cringe emoji search bar
 
 original source:
 https://github.com/puckzxz/NotAnotherAnimeTheme
