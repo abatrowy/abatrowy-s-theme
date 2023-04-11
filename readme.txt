@@ -14,3 +14,5 @@ things ive made:
 
 original source:
 https://github.com/puckzxz/NotAnotherAnimeTheme
+
+theme is for discord only.
