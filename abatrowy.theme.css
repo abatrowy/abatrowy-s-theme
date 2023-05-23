@@ -162,11 +162,6 @@ removde cringe emoji search bar
   height: 20px !important;
 }
 
-/*popout background image*/
-.root-3QyAh1 {background-size: cover;} /*Large popout*/
-.userPopout-xaxa6l {background-size: cover;} /*Small popout*/
-.channelTabs-tabContainer, .channelTabs-container {background: 0 0!important; background-color: initial !important;}
-
 /*muted channel custom look*/
 .modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
 .modeMuted-2T4MDZ .iconContainer-21RCa3{ position: relative; }
