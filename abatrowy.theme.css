@@ -73,6 +73,15 @@ removde cringe emoji search bar
   --video-screen-button-foreground-hovor-color: white;
 
   --member-listing-role-color: var(--main-theme-color);
+	
+ /*[USER POPOUTS]*/
+  --small-user-popout-background-image: url(https://i.ibb.co/rH6yH5P/image-2.jpg);
+  --small-user-popout-background-transparency: rgba(0,0,0, 0.7);
+  --small-user-popout-background-image-position: center;
+
+  --big-user-popout-background-image: url(https://i.ibb.co/rH6yH5P/image-2.jpg);
+  --big-user-popout-background-transparency: rgba(0,0,0, 0.7);
+  --big-user-popout-background-image-position: center;
 
   /*[CODE BLOCKS]*/
   --code-markup-background-color: rgba(0, 0, 0, 0.6); /*Code blocks background color*/
@@ -172,6 +181,19 @@ removde cringe emoji search bar
         text-transform: lowercase;
 }
 
+/*transparent channels role menu background*/
+
+.content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
+    background-color: transparent;
+}
+.prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi {
+    background-color: #0000006e;
+}
+
+.scroller-38C5lh {
+  background-color: transparent;
+}
+
 /*removed display of useless shit*/
 .edited-1v5nT8:not(.message-translate-indicator) {
     display: none;
@@ -198,12 +220,7 @@ header-11eigE .diversitySelector-P-W_tU {
     margin-right: 0;
 }
 
-/*
-------------------------------------------------------
-Resizable Channel/DM List
-By Qb
-------------------------------------------------------
-*/
+/* Resizable Channel/DM List */
 :root { --sidebar-initial-width: 240px; }
 .sidebar-2K8pFh {
     resize: horizontal;
