@@ -35,6 +35,11 @@ fixed stuff
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
 
+.avatar-3QF_VA {
+  border: 8px solid transparent;
+  background-color: transparent;
+}
+
 :root {
 
   /*[better columns - dms are fixed + read all message plugin]*/
@@ -237,9 +242,4 @@ header-11eigE .diversitySelector-P-W_tU {
 .blockedAction-2cPk2G {position: absolute;inset: 0;width: 100%;opacity: 0}
 .blockedMessageText-3Zeg3y:after {content: '';position: absolute;right: 0;height: 100%;width: 14px;pointer-events: none;background-color: currentColor;
 -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
-}
-
-.avatar-3QF_VA {
-  border: 8px solid transparent;
-  background-color: transparent;
 }
