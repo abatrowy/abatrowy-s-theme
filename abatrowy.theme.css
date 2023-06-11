@@ -74,15 +74,6 @@ removde cringe emoji search bar
   --video-screen-button-foreground-hovor-color: white;
 
   --member-listing-role-color: var(--main-theme-color);
-	
- /*[USER POPOUTS]*/
-  --small-user-popout-background-image: url(https://i.ibb.co/rH6yH5P/image-2.jpg);
-  --small-user-popout-background-transparency: rgba(0,0,0, 0.7);
-  --small-user-popout-background-image-position: center;
-
-  --big-user-popout-background-image: url(https://i.ibb.co/rH6yH5P/image-2.jpg);
-  --big-user-popout-background-transparency: rgba(0,0,0, 0.7);
-  --big-user-popout-background-image-position: center;
 
   /*[CODE BLOCKS]*/
   --code-markup-background-color: rgba(0, 0, 0, 0.6); /*Code blocks background color*/
