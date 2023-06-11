@@ -29,7 +29,7 @@ fixed stuff
 
 */
 
-@import url(https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/build/v3/naat.v3.css);
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 @import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
@@ -217,6 +217,7 @@ header-11eigE .diversitySelector-P-W_tU {
 .emojiPicker-6YCk8a .searchBar-2M9mRP {
     margin-right: 0;
 }
+
 
 /* Resizable Channel/DM List */
 :root { --sidebar-initial-width: 240px; }
