@@ -1,33 +1,9 @@
-/**
 * @name abatrowy's theme
 * @author abatrowy
 * @version 3.3
-* @description edited notanotheranimetheme by abatrowy#0333
-* @invite FdZhbjY
-* @source https://github.com/puckzxz/NotAnotherAnimeTheme
-* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
-*/
-
-/*
-
-[custom edited notanotheranimetheme by abatrowy#0333]
-things ive made:
-
-better discord forums preview
-better columns - dms are fixed + read all message compatible with better discord plugin
-custom animated badges
-changed font to a old one
-unread messages 
-muted channel custom look
-edited message timelap + date
-get gid of grey background and maked them transparent so it looks good with ur bg
-animated settings on bottom left
-better look of blocked messages
-removed useless stuff
-removde cringe emoji search bar
-fixed stuff
-
-*/
+* @description edited notanotheranimetheme by @abatrowy
+* @source https://github.com/abatrowy/abatrowy-theme
+* @updateUrl https://raw.githubusercontent.com/abatrowy/abatrowy-theme/main/abatrowy.theme.css
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
@@ -35,20 +11,19 @@ fixed stuff
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
 
+/* popout fix (never touch this) */
 .avatar-3QF_VA {
   border: 8px solid transparent;
   background-color: transparent;
 }
 
-:root {
+/* ================================ THEME SETTINGS  ================================*/
 
-  /*[better columns - dms are fixed + read all message plugin]*/
-	--columns:			2;							/* default:	3					(amount of servercolumns)																		*/
-	
-	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
-	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
-	
-	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
+:root {
+	--columns:2;			     /*amount of servercolumns */	
+	--guildsize: 50;		     /* serversize in pixe l*/
+	--guildgap:			3;   /* top/bottom gap between servers in pixel */
+	--aligndms:			0;   /* DMs be aligned in columns: 0 = no, 1 = yes */
 
   /*[custom animated badges]*/
   --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
@@ -64,7 +39,6 @@ fixed stuff
   --home-icon-image-zoom: 100%;
 
   /*[FONT SETTINGS]*/
- /* --font-size: 100%; */
   --font: "Inter";
   --font-primary: var(--font);
   --font-display: var(--font);
@@ -98,7 +72,7 @@ fixed stuff
 
   --message-hover-buttons-background: rgba(200, 200, 200, 0.1); /*The small box that appears around the edit, pin, delete, etc icons when you hover over a message*/
 
-  /*[overall settings]*/
+  /*[overall theme settings]*/
 
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
 
@@ -142,8 +116,9 @@ fixed stuff
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
 }
 
-  /*[unread messages]*/
+/* ================================ ADDITIONAL THEME PLUGINS  ================================*/
 
+/* UNREAD MESSAGES */
 .pill-1z4sAY .item-2LIpTv,
 .pill-3N7f9r .item-2LIpTv,
 .pill-2RsI5Q .item-2LIpTv,
@@ -156,18 +131,16 @@ fixed stuff
   height: 8px !important;
   background-color: #fff;
 }
-
 .item-2LIpTv:not([style*="height: 8px"]):not([style*="height: 20px"]) {
   top: 4px;
   height: 40px !important;
 }
-
 .item-2LIpTv:not([style*="height: 8px"]):not([style*="height: 40px"]) {
   top: 14px;
   height: 20px !important;
 }
 
-/*muted channel custom look*/
+/*MUTED CHANNEL - CUSTOM LOOK*/
 .modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
 .modeMuted-2T4MDZ .iconContainer-21RCa3{ position: relative; }
 .modeMuted-2T4MDZ .iconContainer-21RCa3:before{
@@ -176,7 +149,7 @@ fixed stuff
     font-size: 20px; 
 }
 
-/*edited message timelap*/
+/*EDITED MESSAGE - TIMELAPS */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
         content: " (" attr(aria-label) ")";
         color: var(--text-muted);
@@ -186,25 +159,23 @@ fixed stuff
         text-transform: lowercase;
 }
 
-/*transparent channels role menu background*/
-
+/*TRANSPARENT CHANNELS ROLE MENU BACKGROUND*/
 .content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
     background-color: transparent;
 }
 .prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi {
     background-color: #0000006e;
 }
-
 .scroller-38C5lh {
   background-color: transparent;
 }
 
-/*removed display of useless shit*/
+/* REMOVED DISPLAY OF USELESS SHIT */
 .edited-1v5nT8:not(.message-translate-indicator) {
     display: none;
 }
 
-/*animated setting bottom left*/
+/* ANIMATED SETTINGS ICON (BOTTOM LEFT) */
 .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
     opacity: 0% !important;
     width: 0px;
@@ -216,8 +187,7 @@ fixed stuff
     width: 32px;
 }
 
-/* remove cringe emoji search bar*/
-
+/* REMOVED CRINGE EMOJI SEARCHBAR */
 header-11eigE .diversitySelector-P-W_tU {
   display: none;
 }
@@ -225,8 +195,7 @@ header-11eigE .diversitySelector-P-W_tU {
     margin-right: 0;
 }
 
-
-/* Resizable Channel/DM List */
+/* RESIZABLE CHANNEL / DM LIST */
 :root { --sidebar-initial-width: 240px; }
 .sidebar-2K8pFh {
     resize: horizontal;
@@ -235,7 +204,7 @@ header-11eigE .diversitySelector-P-W_tU {
 .sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
 .bannerImage-3KhIJ6 { width: 100%; }
 
-/*better look of blocked messages*/
+/* BETTER LOOK OF BLOCKED MESSAGES */
 .scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg {padding: 0 0 0 16px}
 .scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg.compact-2Nkcau {padding: 0 0 0 108px}
 .scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) {margin: 0}
