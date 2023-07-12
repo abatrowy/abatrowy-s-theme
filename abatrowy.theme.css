@@ -64,7 +64,7 @@ fixed stuff
   --home-icon-image-zoom: 100%;
 
   /*[FONT SETTINGS]*/
-  --font-size: 100%;
+ /* --font-size: 100%; */
   --font: "Inter";
   --font-primary: var(--font);
   --font-display: var(--font);
