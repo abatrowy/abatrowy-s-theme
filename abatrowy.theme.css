@@ -63,8 +63,15 @@ fixed stuff
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
 
-  /*[FONT SIZE]*/
+  /*[FONT SETTINGS]*/
   --font-size: 100%;
+  --font: "Inter";
+  --font-primary: var(--font);
+  --font-display: var(--font);
+  --font-header:  var(--font);
+  --font-code: Iosevka, "Iosevka";
+  --webkit-font-smoothing: antialiased;
+  --moz-os-x-font-smoothing: grayscale;
 
   /*[MENTION COLORS]*/
   --mention-color: #001f4d4b; /*The color messages that mention you will highlight in*/
