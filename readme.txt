@@ -16,3 +16,4 @@ original source:
 https://github.com/puckzxz/NotAnotherAnimeTheme
 
 theme is for discord only.
+important: if u dont have vencord remove everything to line 253.
