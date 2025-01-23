@@ -8,14 +8,9 @@
 
 :root {
   --columns: 2; /* Number of server columns */
-  --guildsize: 50; /* Server size in pixels */
-  --guildgap: 1; /* Gap between servers in pixels */
+  --guildsize: 30; /* Server size in pixels */
+  --guildgap: 3; /* Gap between servers in pixels */
   --aligndms: 0; /* DMs alignment in columns (0 = no, 1 = yes) */
-
-  /*[custom animated badges]*/
-  --badge-size: 22px; /*discord default = 18px, theme default = 22px;*/
-  --badge-margin: 1.5px; /*discord default = 2px, theme default = 1.5px*/
-  --badges-everywhere-size: 15px; /*default = 15px*/
 
   /*majority theme*/
   --theme-background-image: url(https://i.ibb.co/XsC38DS/3cd9e55909a8d6c0c476d2350786b922.jpg); /* The main image over your whole Discord client */
@@ -72,11 +67,6 @@
 /* Ensure the server icon is positioned correctly */
 .guild-1M7Twb .icon_d8bfb3 {
   position: relative;
-}
-
-/* Hides the Discover button in the guild list */
-div[class^="footer_"] {
-    display: none;
 }
 
 /* Hides the Nitro button on the DM page */
