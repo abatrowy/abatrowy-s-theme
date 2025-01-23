@@ -1,7 +1,5 @@
-@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 @import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
 
 .avatar-3QF_VA {
   border: 8px solid transparent;
@@ -43,14 +41,6 @@
   --mention-hover-color: #001f4d5f; /*The color a mention highlight changes to when you hover over it*/
   --category-hover-color: #ffffff5f; /*Color that categories change to when hovered over*/
   --unread-server-animation: rainbow; /*The color animation that appears over server icons with unreads. Best to leave this be.*/
-
-  /*[VIDEO PLAYER]*/
-  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
-  --video-screen-button-foreground-color: white;
-  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
-  --video-screen-button-foreground-hovor-color: white;
-
-  --member-listing-role-color: var(--main-theme-color);
 
   /*[CODE BLOCKS]*/
   --code-markup-background-color: rgba(0, 0, 0, 0.6); /*Code blocks background color*/
