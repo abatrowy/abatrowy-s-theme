@@ -9,7 +9,7 @@
 :root {
   --columns: 2; /* Number of server columns */
   --guildsize: 50; /* Server size in pixels */
-  --guildgap: 3; /* Gap between servers in pixels */
+  --guildgap: 1; /* Gap between servers in pixels */
   --aligndms: 0; /* DMs alignment in columns (0 = no, 1 = yes) */
 
   /*[custom animated badges]*/
