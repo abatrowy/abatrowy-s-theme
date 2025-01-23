@@ -74,6 +74,11 @@
   position: relative;
 }
 
+/* Ukrycie przycisku "Discover" */
+.add-discover-1FMf9a {
+  display: none;
+}
+
 /* Transparent channels role menu background */
 .content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
     background-color: transparent;
