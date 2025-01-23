@@ -74,9 +74,28 @@
   position: relative;
 }
 
-/* Ukrycie przycisku "Discover" */
-.add-discover-1FMf9a {
-  display: none;
+/* Hides the Discover button in the guild list */
+div[class^="footer_"] {
+    display: none;
+}
+
+/* Hides the Nitro button on the DM page */
+ul[role="list"] li[class^="channel"]:nth-child(3) {
+    display: none;
+}
+
+/* Hides the Shop button on the DM page */
+ul[role="list"] li[class^="channel"]:nth-child(4) {
+    display: none;
+}
+
+/* Get rid of the insane and weird padding around the message input box */
+form[class*="ChatInput"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form[class*="ChatInput"] {
+    --custom-chat-input-margin-bottom: 10px;
 }
 
 /* Transparent channels role menu background */
