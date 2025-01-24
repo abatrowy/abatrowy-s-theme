@@ -1,11 +1,6 @@
 @import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
-.avatar-3QF_VA {
-  border: 8px solid transparent;
-  background-color: transparent;
-}
-
 :root {
   --columns: 2; /* Number of server columns */
   --guildsize: 50; /* Server size in pixels */
