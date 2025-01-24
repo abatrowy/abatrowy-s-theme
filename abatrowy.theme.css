@@ -17,6 +17,13 @@
   --main-theme-color: #ffffff; /* The default theme color */
   --theme-transparency: rgba(0, 0, 0, 0.7); /* The mask that applies over the background */
 
+  body {
+  background-image: var(--theme-background-image) !important;
+  background-color: var(--main-theme-color) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
   /*[FONT SETTINGS]*/
   --font: "Inter";
   --font-primary: var(--font);
