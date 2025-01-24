@@ -1,0 +1,80 @@
+@import url(https://cdn.statically.io/gh/Overimagine1/old-discord-font/main/source.min.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+
+:root {
+  /* Liczba kolumn serwerów */
+  --columns: 2;
+  --guildsize: 50px;
+  --guildgap: 3px;
+  --aligndms: 0;
+
+  /* Ustawienia głównego tła */
+  --theme-background-image: url(https://i.ibb.co/XsC38DS/3cd9e55909a8d6c0c476d2350786b922.jpg);
+  --main-theme-color: #ffffff;
+  --theme-transparency: rgba(0, 0, 0, 0.7);
+
+  /* Czcionki */
+  --font: "Inter", sans-serif;
+  --font-primary: var(--font);
+  --font-display: var(--font);
+  --font-header: var(--font);
+  --font-code: Iosevka, "Iosevka";
+  --webkit-font-smoothing: antialiased;
+  --moz-os-x-font-smoothing: grayscale;
+
+  /* Kolory dla bloków kodu */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /* Przezroczystość okien i wiadomości */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  /* Menu kontekstowe i inne elementy */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+  --scrollbar-color: #ffffff89;
+
+  --new-messages-bar-background-color: var(--main-theme-color);
+  --new-messages-bar-font-color: #fff;
+
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Tło aplikacji */
+.appMount {
+  background: var(--theme-background-image) no-repeat center center fixed !important;
+  background-size: cover !important;
+  background-color: var(--theme-transparency) !important;
+}
+
+/* Przezroczystość okien */
+.container-1YxwTf, 
+.layerContainer-yqaFcK {
+  background-color: var(--theme-transparency) !important;
+}
+
+/* Hover efekt na przyciskach wiadomości */
+.message-2qnXI6:hover .buttons-3JBrkn {
+  background-color: var(--message-hover-buttons-background) !important;
+}
+
+/* Bloki kodu */
+.code-2JmcNH {
+  background-color: var(--code-markup-background-color) !important;
+  border: var(--code-markup-border) !important;
+}
+
+/* Wyrównanie i rozmiar serwerów */
+.guilds-3D8YEo {
+  grid-template-columns: repeat(var(--columns), minmax(0, 1fr)) !important;
+  gap: var(--guildgap) !important;
+}
+
+.guild-1EfMGQ {
+  width: var(--guildsize) !important;
+  height: var(--guildsize) !important;
+}
