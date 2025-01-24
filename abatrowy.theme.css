@@ -2,15 +2,15 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 :root {
-  --columns: 2; /* Number of server columns */
-  --guildsize: 50; /* Server size in pixels */
-  --guildgap: 3; /* Gap between servers in pixels */
-  --aligndms: 0; /* DMs alignment in columns (0 = no, 1 = yes) */
+  --columns: 2; /* number of server columns */
+  --guildsize: 50; /* server size in pixels */
+  --guildgap: 3; /* gap between servers in pixels */
+  --aligndms: 0; /* dms alignment in columns */
 
   /*majority theme*/
-  --theme-background-image: url(https://i.ibb.co/XsC38DS/3cd9e55909a8d6c0c476d2350786b922.jpg); /* The main image over your whole Discord client */
-  --main-theme-color: #ffffff; /* The default theme color */
-  --theme-transparency: rgba(0, 0, 0, 0.7); /* The mask that applies over the background */
+  --theme-background-image: url(https://i.ibb.co/XsC38DS/3cd9e55909a8d6c0c476d2350786b922.jpg); /* main image over your whole discord */
+  --main-theme-color: #ffffff; /* theme color */
+  --theme-transparency: rgba(0, 0, 0, 0.7); /* mask that applies over the background */
 
   /*[FONT SETTINGS]*/
   --font: "Inter";
@@ -22,13 +22,13 @@
   --moz-os-x-font-smoothing: grayscale;
 
   /*[CODE BLOCKS]*/
-  --code-markup-background-color: rgba(0, 0, 0, 0.6); /* Code blocks background color */
-  --code-markup-border: 1px solid transparent; /* Optional border around code blocks */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6); /* code blocks background color */
+  --code-markup-border: 1px solid transparent; /* optional border around code blocks */
 
-  --message-box-transparency: rgba(0, 0, 0, 0.6); /* The message box at the bottom */
+  --message-box-transparency: rgba(0, 0, 0, 0.6); /* the message box at the bottom */
   --embed-background-transparency: rgba(0, 0, 0, 0.6);
 
-  --message-hover-buttons-background: rgba(200, 200, 200, 0.1); /* Hover background for buttons in messages */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1); /* hover background for buttons in messages */
 
   /*[overall settings]*/
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
@@ -37,7 +37,7 @@
 
   --scrollbar-color: #ffffff89;
 
-  --new-messages-bar-background-color: var(--main-theme-color); /* New messages bar background */
+  --new-messages-bar-background-color: var(--main-theme-color); /* new messages bar background */
   --new-messages-bar-font-color: #fff;
 
   --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
